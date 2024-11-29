@@ -7,7 +7,7 @@
 - 📦 集成40+个全球pip源，支持智能切换和故障转移
 - 🔍 内置智能包名解析引擎，自动识别多种安装命令格式
 - 💡 实时包信息检索和版本兼容性分析
-- 📥 支持本地wheel文件安装，自动进行平台兼容性检查
+- 📥 支持本地whl文件安装，自动进行平台兼容性检查
 - 🔄 多线程异步安装，实时进度监控
 - 📋 详细的安装日志和错误诊断系统
 - 🛡️ 内置错误恢复机制，确保安装过程的稳定性
@@ -50,10 +50,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/smart-pip-installer.git
-
-# 进入目录
-cd smart-pip-installer
+git clone https://github.com/HonkerWuKe/pip_install_help.git
 
 # 运行程序
 python pip_install_help.py
